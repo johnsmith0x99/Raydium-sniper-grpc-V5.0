@@ -8,13 +8,4 @@ import { init } from './transaction/transaction';
 
 
 
-async function start() {
-
-  await init();
-
-  streamNewTokens();
-  streamOpenbook();
-
-}
-
 start();
